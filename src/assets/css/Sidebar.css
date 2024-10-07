@@ -1,0 +1,120 @@
+/* Sidebar CSS */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    padding: 10px 15px;
+    background: linear-gradient(to bottom, #f5f5f5, #dae3e8);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 0 50px;
+    -webkit-border-radius: 0 0 0 50px;
+    -moz-border-radius: 0 0 0 50px;
+    -ms-border-radius: 0 0 0 50px;
+    -o-border-radius: 0 0 0 50px;
+}
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+  }
+  
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    background-color: #d6d6d6;
+    overflow: hidden;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .profile-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-name h3 {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  
+  .profile-name span {
+    border: 1px solid #d6d6d6;
+    font-size: 10px;
+    padding: 0 1px;
+    color: #d6d6d6;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+  }
+  
+  
+  
+  .menu h1{
+    font-size: 20px;
+    color: #d6d6d6;
+  }
+  
+  .menu ul {
+    padding-left: 0;
+  }
+  
+  .menu ul li {
+    padding: 5px 0;
+  }
+  
+  .menu ul li:hover {
+    opacity: 0.8;
+  }
+  
+  .my-active:hover {
+    opacity: 1;
+  }
+  
+  .menu ul li a {
+    font-size: 18px;
+    color: #404040;
+  }
+  
+  .playlists-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .playlists-title h1{
+    font-size: 20px;
+    color: #d6d6d6;
+  }
+  
+  .playlists ul {
+    padding-left: 0;
+  }
+  
+  .playlists ul li {
+    padding: 5px 0;
+  }
+  
+  .playlists ul li:hover {
+    opacity: 0.8;
+  }
+  
+  .playlists ul li a {
+    font-size: 18px;
+    color: #404040;
+  }
+  
